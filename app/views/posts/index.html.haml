@@ -1,1 +1,4 @@
-%h1 PLEASE WORK T_T
+- @posts.each do |post|
+    %h1= link_to post.title, post
+
+= link_to "Upload Image", new_post_path
