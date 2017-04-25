@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Image Gallery is a web app that allows users to upload and comment on images.
 
-Things you may want to cover:
+User stories:
+    - A user can register an account, sign in, and sign out.
+    - A signed in user can upload an image
+    - A signed in user can delete an image he/she uploaded
+    - A signed in user can comment on posts
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This web app uses Ruby, Ruby on Rails, Devise gem, and Paperclip gem.
